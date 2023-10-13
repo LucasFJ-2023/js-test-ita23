@@ -7,9 +7,11 @@
  * const coolestTeacher = getCoolestTeacher();
  * console.log(coolestTeacher); // Benjamin
  */
-function getCoolestTeacher() {
-
+function getCoolestTeacher(name) {
+    return "Benjamin"
 }
+
+
 
 /**
  * This function multiplies two numbers and then adds a third number.
@@ -24,8 +26,9 @@ function getCoolestTeacher() {
  * const anotherResult = multiplyAndAdd(-1, 1, 2); // anotherResult will be 1
  */
 function multiplyAndAdd(a, b, c) {
-
+    return result = (a*b)+c;
 }
+
 
 /**
  * This function returns the type of the provided variable.
@@ -38,7 +41,7 @@ function multiplyAndAdd(a, b, c) {
  * const anotherResult = determineType(42); // anotherResult will be "number"
  */
 function determineType(value) {
-
+    return typeof value;
 }
 
 /**
@@ -53,7 +56,7 @@ function determineType(value) {
  */
 
 function concatenateStringsWithSpace(a, b) {
-
+    return a + " " + b;
 }
 
 
@@ -71,6 +74,9 @@ function concatenateStringsWithSpace(a, b) {
  */
 
 function toUpperCaseWithSmiley(str) {
-    
+    return str.toUpperCase();
 }
+
+console.log(toUpperCaseWithSmiley("hello"));
+
 
